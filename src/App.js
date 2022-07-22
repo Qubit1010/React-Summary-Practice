@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import {Practice} from "./components/practice";
+// import {Dynamic_C} from "./components/dynamic";
+// import EventHandlingComponent from "./components/eventHandlingComponent";
+// import {ParentComponent} from "./components/ParentComponent";
+// import {ConditionalRenderingComponent} from "./components/ConditionalRenderingComponent";
+// import {NamesList} from "./components/NamesList"
+// import {Form} from "./components/Form"
+import {PostList} from "./components/PostList"
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Practice name='Vishwas' age='20'/>
+      <Practice name='John' age='22'/>
+      <Practice name='Tom' age='30'> 
+      <p>
+        This the is a child props  
+      </p>
+      <button>Change State</button>
+      </Practice> 
+      <Dynamic_C/> */}
+      {/* <EventHandlingComponent/> */}
+      {/* <ParentComponent/> */}
+      {/* <ConditionalRenderingComponent /> */}
+      {/* <NamesList/> */}
+      {/* <Form/> */}
+      <PostList/>
+      
     </div>
   );
 }
